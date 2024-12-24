@@ -1,0 +1,122 @@
+$primary-color: #FA7735;
+$secondary-color: #0C8ECE;
+$heading-color: #143C56;
+$para-color: #141414;
+$light-primary-color: #FEF3EF;
+$light-secondary-color: #EBF8FF;
+$gray-color: #8D8D8D;
+$white-color: #ffffff;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: Josefin Sans;
+    color: $heading-color;
+}
+
+nav {
+    margin-left: 50px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: $primary-color;
+}
+
+nav a.active {
+    color: $secondary-color;
+}
+
+p {
+    font-family: Mulish;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    transition: top 0.3s ease-in-out;
+}
+
+.sec-01 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.sld-caps h1 {
+    font-size: 41px;
+    font-weight: 800;
+}
+
+.sld-caps p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.sld-caps a {
+    color: $white-color;
+    background: $primary-color;
+    padding: 15px 35px;
+    font-size: 16px;
+}
+
+section.sec-01 {
+    background: url(../../../assets/media/misc/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul.sec2-list li img {
+    margin-right: 20px;
+}
+
+ul.sec2-list li {
+    list-style: none;
+    margin-bottom: 40px;
+}
+ul.sec2-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+section.sec-02 {
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
